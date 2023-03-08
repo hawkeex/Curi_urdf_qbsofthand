@@ -775,7 +775,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://meshes/qbhand/palm_pinch_l.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="../meshes/qbhand/palm_pinch_l.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="qbhand/palm">
         <color rgba="0.35 0.35 0.35 1.0"/>
