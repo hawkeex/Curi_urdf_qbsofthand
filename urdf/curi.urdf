@@ -733,14 +733,7 @@
     <parent link="panda_left_link7"/>
     <child link="left_root_link"/>
   </joint>
-  <link name="left_root_link">
-    <visual>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
-      <geometry>
-        <box size="0.001 0.001 0.001"/>
-      </geometry>
-    </visual>
-  </link>
+  <link name="left_root_link"/>
   <joint name="qbhand_base_fixed_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0 0 0"/>
     <parent link="left_root_link"/>
