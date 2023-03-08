@@ -893,10 +893,5 @@
     <child link="qbhand_end_effector_link"/>
   </joint>
   <link name="qbhand_end_effector_link"/>
-  <joint name="panda_right_joint_torso_end" type="fixed">
-    <parent link="torso_end"/>
-    <child link="panda_right_link0"/>
-    <origin rpy="1.5004311592913677 0.8772798703277918 0.2038499389018784" xyz="0.02842 -0.11216 0.19004"/>
-  </joint>
 </robot>
 
